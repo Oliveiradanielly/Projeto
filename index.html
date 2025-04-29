@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfólio de Danielly dos Reis Oliveira</title>
+</head>
+
+<body>
+    <header class="container text-center">
+        <img src="img/avatar-perfil.png" alt="Avatar de Danielly dos Reis Oliveira" class="rounded-circle" width="150" height="150">
+        <p class="lead">Olá, eu sou a Danielly!</p>
+        <h1>Minha Jornada na Programação</h1>
+        <p>Sou estudante de Desenvolvimento de Sistemas e apaixonada por tecnologias que transformam o mundo. Trabalho com HTML, CSS, JavaScript e Python. Confira os meus projetos abaixo!</p>
+        <p>Minhas habilidades</p>
+        <div>
+            <p class="badge bg-primary">HTML</p>
+            <p class="badge bg-success">CSS</p>
+            <p class="badge bg-info">JavaScript</p>
+            <p class="badge bg-warning">Python</p>
+        </div>
+    </header>
+    <main class="container mt-5">
+        <h2>Meus Projetos</h2>
+        <div class="row">
+            <!-- Projeto 1 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/projeto-1.png" class="card-img-top" alt="Imagem do projeto de calculadora interativa">
+                    <div class="card-body">
+                        <h5 class="card-title">Calculadora Interativa em JavaScript</h5>
+                        <p class="card-text">Este projeto consiste em uma calculadora simples, mas eficiente, construída em JavaScript. Ela pode realizar operações básicas como soma, subtração, multiplicação e divisão, além de ter um design responsivo.</p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal1">Veja o projeto</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Projeto 2 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/projeto-2.png" class="card-img-top" alt="Imagem do projeto de site de receitas interativas">
+                    <div class="card-body">
+                        <h5 class="card-title">Site de Receitas Interativas</h5>
+                        <p class="card-text">Este site interativo permite aos usuários procurar e compartilhar receitas de todo o mundo. Desenvolvido com HTML, CSS, e JavaScript, o site oferece uma experiência de navegação prática e agradável.</p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal2">Veja o projeto</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Projeto 3 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/projeto-3.png" class="card-img-top" alt="Imagem do projeto de jogo da forca em Python">
+                    <div class="card-body">
+                        <h5 class="card-title">Jogo da Forca em Python</h5>
+                        <p class="card-text">Criei uma versão do clássico Jogo da Forca usando Python, onde o jogador tenta adivinhar palavras com base em dicas. O jogo é simples, mas oferece uma interação divertida e desafiante!</p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal3">Veja o projeto</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Modal 1 -->
+    <div class="modal" id="modal1" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Calculadora Interativa em JavaScript</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Este projeto é uma calculadora simples que utiliza JavaScript para realizar operações matemáticas básicas. A interface foi projetada com HTML e CSS, garantindo um layout clean e responsivo para diversos dispositivos.</p>
+                    <img src="img/projeto-1.png" class="img-fluid w-100" alt="Imagem do projeto de calculadora interativa">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://daniellyrepos.github.io/calculadora-js/">Ver projeto ao vivo</a>
+                    <a href="https://github.com/daniellyrepos/calculadora-js">Ver código do projeto</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Modal 2 -->
+    <div class="modal" id="modal2" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Site de Receitas Interativas</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Este projeto é um site interativo de receitas onde os usuários podem pesquisar, adicionar e compartilhar suas receitas favoritas. Foi desenvolvido usando HTML, CSS e JavaScript, com foco em uma interface simples e acessível.</p>
+                    <img src="img/projeto-2.png" class="img-fluid w-100" alt="Imagem do projeto de site de receitas">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://daniellyrepos.github.io/receitas-interativas/">Ver projeto ao vivo</a>
+                    <a href="https://github.com/daniellyrepos/receitas-interativas">Ver código do projeto</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 3 -->
+    <div class="modal" id="modal3" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Jogo da Forca em Python</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Desenvolvi este jogo da forca em Python, onde o jogador tenta adivinhar palavras. O código é simples e funcional, com a possibilidade de adicionar mais palavras e desafios ao jogo. Perfeito para quem está começando em Python!</p>
+                    <img src="img/projeto-3.png" class="img-fluid w-100" alt="Imagem do projeto de jogo da forca em Python">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://github.com/daniellyrepos/jogo-da-forca">Ver código do projeto</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="container py-5">
+        <h2>Entre em contato</h2>
+        <div>
+            <i class="bi bi-github"></i>
+            <a href="https://github.com/daniellyrepos">GitHub</a>
+        </div>
+        <p class="my-5 text-center">© Copyright 2024. Produzido por Danielly dos Reis Oliveira</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
